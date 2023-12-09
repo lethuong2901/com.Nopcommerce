@@ -35,7 +35,7 @@ public class UserSearch extends BaseTest {
         searchValue3 = "Lenovo Thinkpad X1 Carbon Laptop";
         searchValue4= "Apple MacBook Pro 13-inch";
         category="Computers";
-        homePage.clickToHeaderLink(driver, "Log in");
+        homePage.clickToHeaderLink(driver, "ico-login");
         loginPage = PageGenerator.getLoginPage(driver);
         loginPage.senKeyToEmailTextbox(email);
         loginPage.senKeyToPassword(password);

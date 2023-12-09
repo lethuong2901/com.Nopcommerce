@@ -52,7 +52,7 @@ public class UserMyAccount extends BaseTest {
         contentReview = "Good";
         rating = "4";
         homePage = PageGenerator.getUserHomePage(driver);
-        homePage.clickToHeaderLink(driver, "Log in");
+        homePage.clickToHeaderLink(driver, "ico-login");
         loginPage = PageGenerator.getLoginPage(driver);
         loginPage.senKeyToEmailTextbox(email);
         loginPage.senKeyToPassword(password);
@@ -74,7 +74,7 @@ public class UserMyAccount extends BaseTest {
     //    @Test
     public void TC_01_MyAccount_Update_CustomerInfo() {
         log.info("My Account: Update Customer Infor- Step 01: Open 'CustomerInfor' page ");
-        homePage.clickToHeaderLink(driver, "My account");
+        homePage.clickToHeaderLink(driver, "ico-account");
         customerInfoPage = PageGenerator.getCustomerInfoPage(driver);
 
         log.info("My Account: Update Customer Infor- Step 02: Verify 'CustomerInfor' link is displayed");
@@ -235,7 +235,7 @@ public class UserMyAccount extends BaseTest {
         homePage = PageGenerator.getUserHomePage(driver);
 
         log.info("My account: Change password - Step 05: Click to 'Login' link");
-        homePage.clickToHeaderLink(driver, "Log in");
+        homePage.clickToHeaderLink(driver, "ico-login");
 
         log.info("My account: Change password - Step 06: Input to 'email' textbox with value '" + email + "'");
         loginPage.senKeyToEmailTextbox(newEmail);
@@ -284,7 +284,7 @@ public class UserMyAccount extends BaseTest {
         Assert.assertTrue(productReviewsPage.isReviewAdded());
 
         log.info("My Account: My product review - Step 07: Click to 'my account' link");
-        productReviewsPage.clickToHeaderLink(driver, "My account");
+        productReviewsPage.clickToHeaderLink(driver, "ico-account");
 
         log.info("My Account: My product review - Step 07: Click to 'My product reviews' link");
         homePage.clickToSideBarLink(driver, "My product reviews");

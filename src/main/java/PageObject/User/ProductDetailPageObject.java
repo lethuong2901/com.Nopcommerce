@@ -17,4 +17,18 @@ public class ProductDetailPageObject extends BasePage {
         clickToElement(driver, ProductDetailPageUIs.ADD_REVIEW_LINK);
         return PageGenerator.getProductReviewPage(driver);
     }
+    public void clickToAddWishlistLink() {
+        waitForElementClickable(driver,ProductDetailPageUIs.ADD_WISHLIST_BUTTON);
+        clickToElement(driver,ProductDetailPageUIs.ADD_WISHLIST_BUTTON);
+    }
+
+    public String getMessageProductIsAddWishlistDisplayed() {
+        waitForElementVisible(driver,ProductDetailPageUIs.SUCCESSFUL_MESSAGE);
+        return getElementText(driver,ProductDetailPageUIs.SUCCESSFUL_MESSAGE);
+    }
+
+    public void closeToMessage() {
+        waitForElementClickable(driver,ProductDetailPageUIs.CLOSE_MESAGSAE_ICON);
+        clickToElement(driver,ProductDetailPageUIs.CLOSE_MESAGSAE_ICON);
+    }
 }

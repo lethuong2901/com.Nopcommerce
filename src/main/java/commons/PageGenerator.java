@@ -43,4 +43,7 @@ public class PageGenerator {
     public static SubCategoryPageObject getSubCategoryPage(WebDriver driver){
         return  new SubCategoryPageObject(driver);
     }
+    public static WishlistPageObject getWishlistPage(WebDriver driver){
+        return  new WishlistPageObject(driver);
+    }
 }

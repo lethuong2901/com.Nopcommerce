@@ -33,7 +33,7 @@ public class UserLogin extends BaseTest {
         password = userDataMapper.getPassword();
         wrongPassword = userDataMapper.getPassword() + "s";
         confirmPassword = userDataMapper.getPassword();
-        homePage.clickToHeaderLink(driver,"Log in");
+        homePage.clickToHeaderLink(driver,"ico-login");
         loginPage = PageGenerator.getLoginPage(driver);
     }
 

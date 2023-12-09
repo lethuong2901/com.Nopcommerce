@@ -34,7 +34,7 @@ public class UserRegister extends BaseTest {
         password=userDataMapper.getPassword();
         confirmPassword=userDataMapper.getPassword();
         wrongPassword=confirmPassword+"1";
-        userHomePage.clickToHeaderLink(driver,"Register");
+        userHomePage.clickToHeaderLink(driver,"ico-register");
         registerPage=PageGenerator.getRegisterPage(driver);
     }
 
@@ -118,7 +118,7 @@ public class UserRegister extends BaseTest {
  //   @Test
     public void TC_04_Register_Email_Existed() {
         log.info("Register: Email Existed - Step 01: Click to 'register' link");
-        registerPage.clickToHeaderLink(driver,"Register");
+        registerPage.clickToHeaderLink(driver,"ico-register");
         registerPage=PageGenerator.getRegisterPage(driver);
 
         log.info("Register: Email Existed - Step 02: Input to 'firstname' textbox with value '"+firstName+"'");
@@ -146,7 +146,7 @@ public class UserRegister extends BaseTest {
  //   @Test
     public void TC_05_Register_Password_Less_Than_6_characters() {
         log.info("Register: Password less than 6 characters - Step 01: Click to 'register' link");
-        registerPage.clickToHeaderLink(driver,"Register");
+        registerPage.clickToHeaderLink(driver,"ico-register");
         registerPage=PageGenerator.getRegisterPage(driver);
 
         log.info("Register: Password less than 6 characters - Step 02: Input to 'firstname' textbox with value '"+firstName+"'");
@@ -174,7 +174,7 @@ public class UserRegister extends BaseTest {
  //   @Test
     public void TC_06_NOT_MATCH_PASSWORD() {
         log.info("Register: Not match password - Step 01: Click to 'register' link");
-        registerPage.clickToHeaderLink(driver,"Register");
+        registerPage.clickToHeaderLink(driver,"ico-register");
         registerPage=PageGenerator.getRegisterPage(driver);
 
         log.info("Register: Not match password - Step 02: Input to 'firstname' textbox with value '"+firstName+"'");

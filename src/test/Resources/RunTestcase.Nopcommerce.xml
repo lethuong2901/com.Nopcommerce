@@ -3,17 +3,14 @@
     <test name="Run on Chrome">
         <parameter name="url" value="https://demo.nopcommerce.com/"/>
         <parameter name="browserName" value="chrome"/>
-
-<!--        <groups>-->
-<!--            <group>-->
-<!--                <run>-->
-<!--                    <include name="Sort"/>-->
-<!--                </run>-->
-<!--            </group>-->
-<!--        </groups>-->
-
+<!--<group>-->
+<!--    <include name="Login Success"/>-->
+<!--</group>-->
         <classes>
-            <class name="Nopcommerce.User.UserSort_Display_Paging"/>
+<!--            <class name="Nopcommerce.User.UserSort_Display_Paging"/>-->
+            <class name="Nopcommerce.User.UserRegister"/>
+<!--            <class name="Nopcommerce.User.UserLogin"/>-->
+            <class name="Nopcommerce.User.UserWishlist"/>
         </classes>
     </test>
 </suite>

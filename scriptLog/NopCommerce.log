@@ -14,3 +14,203 @@
 [INFO ] [2023-12-08 11:01:38,607] Page: Display 3 per page - Step 02: Verify <= 6 product is displayed in per page
 [INFO ] [2023-12-08 11:02:10,758] Page: Display 9 per page - Step 01: Select display 9 per page
 [INFO ] [2023-12-08 11:02:11,000] Page: Display 9 per page - Step 02: Verify <= 9 product is displayed in per page
+[INFO ] [2023-12-08 21:28:50,373] Sort: Name A to Z - Step 01: Select sort by 'name A to Z' in dropdown
+[INFO ] [2023-12-08 21:28:50,833] Sort by: Name Z to A - Step 01: Select sort by 'name Z to A' in dropdown
+[INFO ] [2023-12-08 21:28:50,942] Sort by: Price low to high - Step 01: Select sort by 'price low to high' in dropdown
+[INFO ] [2023-12-08 21:28:50,965] Sort by: Price high to low - Step 01: Select sort by 'price high to low' in dropdown
+[INFO ] [2023-12-08 21:29:44,871] Sort: Name A to Z - Step 01: Select sort by 'name A to Z' in dropdown
+[INFO ] [2023-12-08 21:29:45,114] Sort by: Name Z to A - Step 01: Select sort by 'name Z to A' in dropdown
+[INFO ] [2023-12-08 21:29:45,197] Sort by: Price low to high - Step 01: Select sort by 'price low to high' in dropdown
+[INFO ] [2023-12-08 21:29:45,238] Sort by: Price high to low - Step 01: Select sort by 'price high to low' in dropdown
+[INFO ] [2023-12-08 21:30:37,428] Sort: Name A to Z - Step 01: Select sort by 'name A to Z' in dropdown
+[INFO ] [2023-12-08 21:30:37,660] Sort by: Name Z to A - Step 01: Select sort by 'name Z to A' in dropdown
+[INFO ] [2023-12-08 21:30:37,701] Sort by: Price low to high - Step 01: Select sort by 'price low to high' in dropdown
+[INFO ] [2023-12-08 21:30:37,745] Sort by: Price high to low - Step 01: Select sort by 'price high to low' in dropdown
+[INFO ] [2023-12-08 21:33:39,659] Khởi tạo trang home page
+[INFO ] [2023-12-08 21:33:39,698] Click to 'Notebooks' subcategory' link
+[INFO ] [2023-12-08 21:33:42,545] Sort: Name A to Z - Step 01: Select sort by 'name A to Z' in dropdown
+[INFO ] [2023-12-08 21:33:44,918] Sort: Name A to Z - Step 02: Verify product name is sort by A to Z
+[INFO ] [2023-12-08 21:33:45,262] Sort by: Name Z to A - Step 01: Select sort by 'name Z to A' in dropdown
+[INFO ] [2023-12-08 21:33:47,468] Sort by: Name Z to A - Step 02: Verify product name is sort by Z to A
+[INFO ] [2023-12-08 21:33:47,624] Sort by: Price low to high - Step 01: Select sort by 'price low to high' in dropdown
+[INFO ] [2023-12-08 21:33:49,896] Sort by: Price low to high - Step 02: Verify product price is sort by Z to A
+[INFO ] [2023-12-08 21:33:50,121] Sort by: Price high to low - Step 01: Select sort by 'price high to low' in dropdown
+[INFO ] [2023-12-08 21:33:52,293] Sort by: Price high to low - Step 02: Verify product price is sort by Z to A
+[INFO ] [2023-12-08 21:33:52,837] Page: Display 3 per page - Step 01: Select display 3 per page
+[INFO ] [2023-12-08 21:33:53,258] Page: Display 3 per page - Step 02: Verify <= 3 product is displayed in per page
+[INFO ] [2023-12-08 21:33:55,847] Page: Display 6 per page - Step 01: Select display 6 per page
+[INFO ] [2023-12-08 21:33:57,171] Page: Display 3 per page - Step 02: Verify <= 6 product is displayed in per page
+[INFO ] [2023-12-08 21:34:29,334] Page: Display 9 per page - Step 01: Select display 9 per page
+[INFO ] [2023-12-08 21:34:29,630] Page: Display 9 per page - Step 02: Verify <= 9 product is displayed in per page
+[INFO ] [2023-12-09 10:43:15,213] Wishlist: Add to wishlist - Step 01: Click to product name at home page
+[INFO ] [2023-12-09 10:53:04,432] Login: Empty data - Step 01: Click to 'login' button
+[INFO ] [2023-12-09 10:53:04,681] Login: Empty data - Step 02: Verify error message at email field is displayed
+[INFO ] [2023-12-09 10:53:05,085] Login: Invalid Email - Step 01: Input to 'email' textbox with value 'null.'
+[INFO ] [2023-12-09 10:53:05,455] Login: Invalid Email - Step 02: Input to 'password' textbox with value 'P123456!'
+[INFO ] [2023-12-09 10:53:05,708] Login: Invalid Email - Step 03: Click to 'login' button
+[INFO ] [2023-12-09 10:53:05,856] Login: Invalid Email - Step 04: Verify error message at email field is displayed
+[INFO ] [2023-12-09 10:53:05,941] Login: Unregister email - Step 01: Input to 'email' textbox with value 'UnRegisterEmail@gmail.com'
+[INFO ] [2023-12-09 10:53:06,255] Login: Unregister email - Step 02: Input to 'password' textbox with value 'P123456!'
+[INFO ] [2023-12-09 10:53:06,474] Login: Unregister email - Step 03: Click to 'login' button
+[INFO ] [2023-12-09 10:53:06,897] Login: Unregister email - Step 04:Verify unsuccessful login message
+[INFO ] [2023-12-09 10:53:07,229] Login: Not input password - Step 01: Input to 'email' textbox with value 'lethuong091@gmail.com'
+[INFO ] [2023-12-09 10:53:07,535] Login: Not input password - Step 02: Click to 'Login' button 
+[INFO ] [2023-12-09 10:53:08,024] Login: Not input password- Step 03: Verify unsuccessful login message
+[INFO ] [2023-12-09 10:53:08,279] Login: Wrong password - Step 01: Input to 'email' textbox with value 'lethuong091@gmail.com'
+[INFO ] [2023-12-09 10:53:08,486] Login: Wrong password - Step 02: Input to 'password' textbox with value 'P123456!s'
+[INFO ] [2023-12-09 10:53:08,708] Login: Wrong password -  Step 03: Click to 'Login' button 
+[INFO ] [2023-12-09 10:53:09,113] Login: Wrong password - Step 04: Verify unsuccessful login message
+[INFO ] [2023-12-09 10:53:09,336] Login: Successful login - Step 01: Input to 'email' textbox with value 'lethuong091@gmail.com'
+[INFO ] [2023-12-09 10:53:09,536] Login: Successful login - Step 02: Input to 'password' textbox with value 'P123456!'
+[INFO ] [2023-12-09 10:53:09,719] Login: Successful login - Step 03: Click to 'Login' button 
+[INFO ] [2023-12-09 10:53:10,128] Login: Successful login - Step 04: Verify 'My account' link is displayed
+[INFO ] [2023-12-09 10:53:45,165] Wishlist: Add to wishlist - Step 01: Click to product name at home page
+[INFO ] [2023-12-09 10:54:32,759] Login: Empty data - Step 01: Click to 'login' button
+[INFO ] [2023-12-09 10:54:33,005] Login: Empty data - Step 02: Verify error message at email field is displayed
+[INFO ] [2023-12-09 10:54:33,208] Login: Invalid Email - Step 01: Input to 'email' textbox with value 'null.'
+[INFO ] [2023-12-09 10:54:33,435] Login: Invalid Email - Step 02: Input to 'password' textbox with value 'P123456!'
+[INFO ] [2023-12-09 10:54:33,614] Login: Invalid Email - Step 03: Click to 'login' button
+[INFO ] [2023-12-09 10:54:33,734] Login: Invalid Email - Step 04: Verify error message at email field is displayed
+[INFO ] [2023-12-09 10:54:33,821] Login: Unregister email - Step 01: Input to 'email' textbox with value 'UnRegisterEmail@gmail.com'
+[INFO ] [2023-12-09 10:54:34,065] Login: Unregister email - Step 02: Input to 'password' textbox with value 'P123456!'
+[INFO ] [2023-12-09 10:54:34,185] Login: Unregister email - Step 03: Click to 'login' button
+[INFO ] [2023-12-09 10:54:34,521] Login: Unregister email - Step 04:Verify unsuccessful login message
+[INFO ] [2023-12-09 10:54:34,719] Login: Not input password - Step 01: Input to 'email' textbox with value 'lethuong01@gmail.com'
+[INFO ] [2023-12-09 10:54:34,876] Login: Not input password - Step 02: Click to 'Login' button 
+[INFO ] [2023-12-09 10:54:35,307] Login: Not input password- Step 03: Verify unsuccessful login message
+[INFO ] [2023-12-09 10:54:35,402] Login: Wrong password - Step 01: Input to 'email' textbox with value 'lethuong01@gmail.com'
+[INFO ] [2023-12-09 10:54:35,551] Login: Wrong password - Step 02: Input to 'password' textbox with value 'P123456!s'
+[INFO ] [2023-12-09 10:54:35,692] Login: Wrong password -  Step 03: Click to 'Login' button 
+[INFO ] [2023-12-09 10:54:36,110] Login: Wrong password - Step 04: Verify unsuccessful login message
+[INFO ] [2023-12-09 10:54:36,194] Login: Successful login - Step 01: Input to 'email' textbox with value 'lethuong01@gmail.com'
+[INFO ] [2023-12-09 10:54:36,359] Login: Successful login - Step 02: Input to 'password' textbox with value 'P123456!'
+[INFO ] [2023-12-09 10:54:36,481] Login: Successful login - Step 03: Click to 'Login' button 
+[INFO ] [2023-12-09 10:54:36,822] Login: Successful login - Step 04: Verify 'My account' link is displayed
+[INFO ] [2023-12-09 10:55:15,654] Wishlist: Add to wishlist - Step 01: Click to product name at home page
+[INFO ] [2023-12-09 10:59:11,060] Login: Empty data - Step 01: Click to 'login' button
+[INFO ] [2023-12-09 10:59:11,326] Login: Empty data - Step 02: Verify error message at email field is displayed
+[INFO ] [2023-12-09 10:59:11,557] Login: Invalid Email - Step 01: Input to 'email' textbox with value 'null.'
+[INFO ] [2023-12-09 10:59:11,802] Login: Invalid Email - Step 02: Input to 'password' textbox with value 'P123456!'
+[INFO ] [2023-12-09 10:59:11,999] Login: Invalid Email - Step 03: Click to 'login' button
+[INFO ] [2023-12-09 10:59:12,122] Login: Invalid Email - Step 04: Verify error message at email field is displayed
+[INFO ] [2023-12-09 10:59:12,203] Login: Unregister email - Step 01: Input to 'email' textbox with value 'UnRegisterEmail@gmail.com'
+[INFO ] [2023-12-09 10:59:12,413] Login: Unregister email - Step 02: Input to 'password' textbox with value 'P123456!'
+[INFO ] [2023-12-09 10:59:12,556] Login: Unregister email - Step 03: Click to 'login' button
+[INFO ] [2023-12-09 10:59:12,928] Login: Unregister email - Step 04:Verify unsuccessful login message
+[INFO ] [2023-12-09 10:59:13,152] Login: Not input password - Step 01: Input to 'email' textbox with value 'lethuong01@gmail.com'
+[INFO ] [2023-12-09 10:59:13,311] Login: Not input password - Step 02: Click to 'Login' button 
+[INFO ] [2023-12-09 10:59:13,729] Login: Not input password- Step 03: Verify unsuccessful login message
+[INFO ] [2023-12-09 10:59:13,852] Login: Wrong password - Step 01: Input to 'email' textbox with value 'lethuong01@gmail.com'
+[INFO ] [2023-12-09 10:59:14,064] Login: Wrong password - Step 02: Input to 'password' textbox with value 'P123456!s'
+[INFO ] [2023-12-09 10:59:14,258] Login: Wrong password -  Step 03: Click to 'Login' button 
+[INFO ] [2023-12-09 10:59:14,633] Login: Wrong password - Step 04: Verify unsuccessful login message
+[INFO ] [2023-12-09 10:59:14,823] Login: Successful login - Step 01: Input to 'email' textbox with value 'lethuong01@gmail.com'
+[INFO ] [2023-12-09 10:59:15,059] Login: Successful login - Step 02: Input to 'password' textbox with value 'P123456!'
+[INFO ] [2023-12-09 10:59:15,234] Login: Successful login - Step 03: Click to 'Login' button 
+[INFO ] [2023-12-09 10:59:15,594] Login: Successful login - Step 04: Verify 'My account' link is displayed
+[INFO ] [2023-12-09 10:59:50,708] Wishlist: Add to wishlist - Step 01: Click to product name at home page
+[INFO ] [2023-12-09 11:04:20,345] Register: Successful - Step 01: Refresh 'Register' page
+[INFO ] [2023-12-09 11:04:20,786] Register: Successful - Step 02:Input to 'firstname' textbox with value 'Le Hoai'
+[INFO ] [2023-12-09 11:04:21,061] Register: Successful - Step 03:Input to 'lastname' textbox with value 'Thuong'
+[INFO ] [2023-12-09 11:04:21,268] Register: Successful - Step 04:Input to 'email' textbox with value 'lethuong01@gmail.com'
+[INFO ] [2023-12-09 11:04:21,476] Register: Successful - Step 05:Input to 'password' textbox with value 'P123456!'
+[INFO ] [2023-12-09 11:04:21,674] Register: Successful - Step 06:Input to 'confirm password' textbox with value 'P123456!'
+[INFO ] [2023-12-09 11:04:21,857] Register: Successful - Step 07: Click to 'Register' button
+[INFO ] [2023-12-09 11:04:22,642] Register: Successful - Step 08: Verify register success message is displayed
+[INFO ] [2023-12-09 11:04:28,763] Login: Empty data - Step 01: Click to 'login' button
+[INFO ] [2023-12-09 11:04:28,913] Login: Empty data - Step 02: Verify error message at email field is displayed
+[INFO ] [2023-12-09 11:04:28,996] Login: Invalid Email - Step 01: Input to 'email' textbox with value 'lethuong01@gmail.com.'
+[INFO ] [2023-12-09 11:04:29,254] Login: Invalid Email - Step 02: Input to 'password' textbox with value 'P123456!'
+[INFO ] [2023-12-09 11:04:29,464] Login: Invalid Email - Step 03: Click to 'login' button
+[INFO ] [2023-12-09 11:04:29,553] Login: Invalid Email - Step 04: Verify error message at email field is displayed
+[INFO ] [2023-12-09 11:04:29,621] Login: Unregister email - Step 01: Input to 'email' textbox with value 'UnRegisterEmail@gmail.com'
+[INFO ] [2023-12-09 11:04:29,866] Login: Unregister email - Step 02: Input to 'password' textbox with value 'P123456!'
+[INFO ] [2023-12-09 11:04:30,004] Login: Unregister email - Step 03: Click to 'login' button
+[INFO ] [2023-12-09 11:04:30,393] Login: Unregister email - Step 04:Verify unsuccessful login message
+[INFO ] [2023-12-09 11:04:30,629] Login: Not input password - Step 01: Input to 'email' textbox with value 'lethuong01@gmail.com'
+[INFO ] [2023-12-09 11:04:30,791] Login: Not input password - Step 02: Click to 'Login' button 
+[INFO ] [2023-12-09 11:04:31,163] Login: Not input password- Step 03: Verify unsuccessful login message
+[INFO ] [2023-12-09 11:04:31,397] Login: Wrong password - Step 01: Input to 'email' textbox with value 'lethuong01@gmail.com'
+[INFO ] [2023-12-09 11:04:31,574] Login: Wrong password - Step 02: Input to 'password' textbox with value 'P123456!s'
+[INFO ] [2023-12-09 11:04:31,715] Login: Wrong password -  Step 03: Click to 'Login' button 
+[INFO ] [2023-12-09 11:04:32,116] Login: Wrong password - Step 04: Verify unsuccessful login message
+[INFO ] [2023-12-09 11:04:32,315] Login: Successful login - Step 01: Input to 'email' textbox with value 'lethuong01@gmail.com'
+[INFO ] [2023-12-09 11:04:32,510] Login: Successful login - Step 02: Input to 'password' textbox with value 'P123456!'
+[INFO ] [2023-12-09 11:04:32,653] Login: Successful login - Step 03: Click to 'Login' button 
+[INFO ] [2023-12-09 11:04:33,276] Login: Successful login - Step 04: Verify 'My account' link is displayed
+[INFO ] [2023-12-09 11:04:39,481] Wishlist: Add to wishlist - Step 01: Click to product name at home page
+[INFO ] [2023-12-09 11:04:41,722] Wishlist: Add to wishlist - Step 02: Click to 'add wishlist' at product detail page 
+[INFO ] [2023-12-09 11:04:41,842] Wishlist: Add to wishlist - Step 03: Verify product is added to wishlist 
+[INFO ] [2023-12-09 11:07:09,526] Wishlist: Add to wishlist - Step 01: Click to product name at home page
+[INFO ] [2023-12-09 11:07:10,187] Wishlist: Add to wishlist - Step 02: Click to 'add wishlist' at product detail page 
+[INFO ] [2023-12-09 11:07:13,395] Wishlist: Add to wishlist - Step 03: Verify mesage product is added to wishlist 
+[INFO ] [2023-12-09 11:09:05,042] Wishlist: Add to wishlist - Step 01: Click to product name at home page
+[INFO ] [2023-12-09 11:09:05,709] Wishlist: Add to wishlist - Step 02: Click to 'add wishlist' at product detail page 
+[INFO ] [2023-12-09 11:09:08,830] Wishlist: Add to wishlist - Step 03: Verify mesage product is added to wishlist 
+[INFO ] [2023-12-09 11:10:23,890] Wishlist: Add to wishlist - Step 01: Click to product name at home page
+[INFO ] [2023-12-09 11:10:24,458] Wishlist: Add to wishlist - Step 02: Click to 'add wishlist' at product detail page 
+[INFO ] [2023-12-09 11:10:27,622] Wishlist: Add to wishlist - Step 03: Verify mesage product is added to wishlist 
+[INFO ] [2023-12-09 11:10:27,728] Wishlist: Add to wishlist - Step 04: Close successful message product is added 
+[INFO ] [2023-12-09 11:10:27,838] Wishlist: Add to wishlist - Step 05: Click to 'add wishlist' link at header
+[INFO ] [2023-12-09 12:07:49,220] Register: Successful - Step 01: Refresh 'Register' page
+[INFO ] [2023-12-09 12:07:49,559] Register: Successful - Step 02:Input to 'firstname' textbox with value 'Le Hoai'
+[INFO ] [2023-12-09 12:07:49,831] Register: Successful - Step 03:Input to 'lastname' textbox with value 'Thuong'
+[INFO ] [2023-12-09 12:07:49,994] Register: Successful - Step 04:Input to 'email' textbox with value 'lethuong01@gmail.com'
+[INFO ] [2023-12-09 12:07:50,204] Register: Successful - Step 05:Input to 'password' textbox with value 'P123456!'
+[INFO ] [2023-12-09 12:07:50,354] Register: Successful - Step 06:Input to 'confirm password' textbox with value 'P123456!'
+[INFO ] [2023-12-09 12:07:50,517] Register: Successful - Step 07: Click to 'Register' button
+[INFO ] [2023-12-09 12:07:51,220] Register: Successful - Step 08: Verify register success message is displayed
+[INFO ] [2023-12-09 12:07:57,627] Wishlist: Add to wishlist - Step 01: Click to product name at home page
+[INFO ] [2023-12-09 12:07:59,278] Wishlist: Add to wishlist - Step 02: Click to 'add wishlist' at product detail page 
+[INFO ] [2023-12-09 12:08:02,488] Wishlist: Add to wishlist - Step 03: Verify mesage product is added to wishlist 
+[INFO ] [2023-12-09 12:08:02,601] Wishlist: Add to wishlist - Step 04: Close successful message product is added 
+[INFO ] [2023-12-09 12:08:02,713] Wishlist: Add to wishlist - Step 05: Click to 'add wishlist' link at header
+[INFO ] [2023-12-09 12:08:04,533] Wishlist: Add to wishlist - Step 06: Verify product is displayed 
+[INFO ] [2023-12-09 12:12:15,926] Register: Successful - Step 01: Refresh 'Register' page
+[INFO ] [2023-12-09 12:12:16,372] Register: Successful - Step 02:Input to 'firstname' textbox with value 'Le Hoai'
+[INFO ] [2023-12-09 12:12:16,569] Register: Successful - Step 03:Input to 'lastname' textbox with value 'Thuong'
+[INFO ] [2023-12-09 12:12:16,728] Register: Successful - Step 04:Input to 'email' textbox with value 'lethuong01@gmail.com'
+[INFO ] [2023-12-09 12:12:16,907] Register: Successful - Step 05:Input to 'password' textbox with value 'P123456!'
+[INFO ] [2023-12-09 12:12:17,089] Register: Successful - Step 06:Input to 'confirm password' textbox with value 'P123456!'
+[INFO ] [2023-12-09 12:12:17,240] Register: Successful - Step 07: Click to 'Register' button
+[INFO ] [2023-12-09 12:12:17,613] Register: Successful - Step 08: Verify register success message is displayed
+[INFO ] [2023-12-09 12:12:53,425] Wishlist: Add to wishlist - Step 01: Click to product name at home page
+[INFO ] [2023-12-09 12:12:55,635] Wishlist: Add to wishlist - Step 02: Click to 'add wishlist' at product detail page 
+[INFO ] [2023-12-09 12:12:58,748] Wishlist: Add to wishlist - Step 03: Verify mesage product is added to wishlist 
+[INFO ] [2023-12-09 12:12:58,845] Wishlist: Add to wishlist - Step 04: Close successful message product is added 
+[INFO ] [2023-12-09 12:12:58,933] Wishlist: Add to wishlist - Step 05: Click to 'add wishlist' link at header
+[INFO ] [2023-12-09 12:13:00,672] Wishlist: Add to wishlist - Step 06: Verify product is displayed 
+[INFO ] [2023-12-09 12:23:33,793] Register: Successful - Step 01: Refresh 'Register' page
+[INFO ] [2023-12-09 12:23:34,055] Register: Successful - Step 02:Input to 'firstname' textbox with value 'Le Hoai'
+[INFO ] [2023-12-09 12:23:34,395] Register: Successful - Step 03:Input to 'lastname' textbox with value 'Thuong'
+[INFO ] [2023-12-09 12:23:34,570] Register: Successful - Step 04:Input to 'email' textbox with value 'lethuong01@gmail.com'
+[INFO ] [2023-12-09 12:23:34,814] Register: Successful - Step 05:Input to 'password' textbox with value 'P123456!'
+[INFO ] [2023-12-09 12:23:34,959] Register: Successful - Step 06:Input to 'confirm password' textbox with value 'P123456!'
+[INFO ] [2023-12-09 12:23:35,090] Register: Successful - Step 07: Click to 'Register' button
+[INFO ] [2023-12-09 12:23:35,484] Register: Successful - Step 08: Verify register success message is displayed
+[INFO ] [2023-12-09 12:24:11,176] Wishlist: Add to wishlist - Step 01: Click to product name at home page
+[INFO ] [2023-12-09 12:24:11,866] Wishlist: Add to wishlist - Step 02: Click to 'add wishlist' at product detail page 
+[INFO ] [2023-12-09 12:24:14,997] Wishlist: Add to wishlist - Step 03: Verify mesage product is added to wishlist 
+[INFO ] [2023-12-09 12:24:15,052] Wishlist: Add to wishlist - Step 04: Close successful message product is added 
+[INFO ] [2023-12-09 12:24:15,141] Wishlist: Add to wishlist - Step 05: Click to 'add wishlist' link at header
+[INFO ] [2023-12-09 12:24:16,236] Wishlist: Add to wishlist - Step 06: Verify product is displayed 
+[INFO ] [2023-12-09 12:24:16,329] Wishlist: Add to wishlist - Step 07: Click to 'url share add wishlist' link
+[INFO ] [2023-12-09 12:24:16,802] Wishlist: Add to wishlist - Step 08: Verify wishlist title is displayed with name
+[INFO ] [2023-12-09 12:24:16,890] Wishlist: Add to wishlist - Step 09: Verify product in wishlist is displayed with name 
+[INFO ] [2023-12-09 17:42:29,153] Register: Successful - Step 01: Refresh 'Register' page
+[INFO ] [2023-12-09 17:42:29,649] Register: Successful - Step 02:Input to 'firstname' textbox with value 'Le Hoai'
+[INFO ] [2023-12-09 17:42:30,070] Register: Successful - Step 03:Input to 'lastname' textbox with value 'Thuong'
+[INFO ] [2023-12-09 17:42:30,338] Register: Successful - Step 04:Input to 'email' textbox with value 'lethuong01@gmail.com'
+[INFO ] [2023-12-09 17:42:30,558] Register: Successful - Step 05:Input to 'password' textbox with value 'P123456!'
+[INFO ] [2023-12-09 17:42:30,775] Register: Successful - Step 06:Input to 'confirm password' textbox with value 'P123456!'
+[INFO ] [2023-12-09 17:42:31,027] Register: Successful - Step 07: Click to 'Register' button
+[INFO ] [2023-12-09 17:42:31,866] Register: Successful - Step 08: Verify register success message is displayed
+[INFO ] [2023-12-09 17:42:41,668] Wishlist: Add to wishlist - Step 01: Click to product name at home page
+[INFO ] [2023-12-09 17:42:44,720] Wishlist: Add to wishlist - Step 02: Click to 'add wishlist' at product detail page 
+[INFO ] [2023-12-09 17:42:47,891] Wishlist: Add to wishlist - Step 03: Verify mesage product is added to wishlist 
+[INFO ] [2023-12-09 17:42:47,991] Wishlist: Add to wishlist - Step 04: Close successful message product is added 
+[INFO ] [2023-12-09 17:42:48,116] Wishlist: Add to wishlist - Step 05: Click to 'add wishlist' link at header
+[INFO ] [2023-12-09 17:42:49,956] Wishlist: Add to wishlist - Step 06: Verify product is displayed 
+[INFO ] [2023-12-09 17:42:50,082] Wishlist: Add to wishlist - Step 07: Click to 'url share add wishlist' link
+[INFO ] [2023-12-09 17:42:50,711] Wishlist: Add to wishlist - Step 08: Verify wishlist title is displayed with name
+[INFO ] [2023-12-09 17:42:50,841] Wishlist: Add to wishlist - Step 09: Verify product in wishlist is displayed with name 

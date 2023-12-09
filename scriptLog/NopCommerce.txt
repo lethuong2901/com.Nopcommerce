@@ -1,16 +1,17 @@
-[INFO ] [2023-12-08 11:01:23,949] Khởi tạo trang home page
-[INFO ] [2023-12-08 11:01:23,967] Click to 'Notebooks' subcategory' link
-[INFO ] [2023-12-08 11:01:25,221] Sort: Name A to Z - Step 01: Select sort by 'name A to Z' in dropdown
-[INFO ] [2023-12-08 11:01:27,443] Sort: Name A to Z - Step 02: Verify product name is sort by A to Z
-[INFO ] [2023-12-08 11:01:27,765] Sort by: Name Z to A - Step 01: Select sort by 'name Z to A' in dropdown
-[INFO ] [2023-12-08 11:01:29,908] Sort by: Name Z to A - Step 02: Verify product name is sort by Z to A
-[INFO ] [2023-12-08 11:01:30,085] Sort by: Price low to high - Step 01: Select sort by 'price low to high' in dropdown
-[INFO ] [2023-12-08 11:01:32,310] Sort by: Price low to high - Step 02: Verify product price is sort by Z to A
-[INFO ] [2023-12-08 11:01:32,493] Sort by: Price high to low - Step 01: Select sort by 'price high to low' in dropdown
-[INFO ] [2023-12-08 11:01:34,649] Sort by: Price high to low - Step 02: Verify product price is sort by Z to A
-[INFO ] [2023-12-08 11:01:34,749] Page: Display 3 per page - Step 01: Select display 3 per page
-[INFO ] [2023-12-08 11:01:34,927] Page: Display 3 per page - Step 02: Verify <= 3 product is displayed in per page
-[INFO ] [2023-12-08 11:01:37,451] Page: Display 6 per page - Step 01: Select display 6 per page
-[INFO ] [2023-12-08 11:01:38,607] Page: Display 3 per page - Step 02: Verify <= 6 product is displayed in per page
-[INFO ] [2023-12-08 11:02:10,758] Page: Display 9 per page - Step 01: Select display 9 per page
-[INFO ] [2023-12-08 11:02:11,000] Page: Display 9 per page - Step 02: Verify <= 9 product is displayed in per page
+[INFO ] [2023-12-09 17:42:29,153] Register: Successful - Step 01: Refresh 'Register' page
+[INFO ] [2023-12-09 17:42:29,649] Register: Successful - Step 02:Input to 'firstname' textbox with value 'Le Hoai'
+[INFO ] [2023-12-09 17:42:30,070] Register: Successful - Step 03:Input to 'lastname' textbox with value 'Thuong'
+[INFO ] [2023-12-09 17:42:30,338] Register: Successful - Step 04:Input to 'email' textbox with value 'lethuong01@gmail.com'
+[INFO ] [2023-12-09 17:42:30,558] Register: Successful - Step 05:Input to 'password' textbox with value 'P123456!'
+[INFO ] [2023-12-09 17:42:30,775] Register: Successful - Step 06:Input to 'confirm password' textbox with value 'P123456!'
+[INFO ] [2023-12-09 17:42:31,027] Register: Successful - Step 07: Click to 'Register' button
+[INFO ] [2023-12-09 17:42:31,866] Register: Successful - Step 08: Verify register success message is displayed
+[INFO ] [2023-12-09 17:42:41,668] Wishlist: Add to wishlist - Step 01: Click to product name at home page
+[INFO ] [2023-12-09 17:42:44,720] Wishlist: Add to wishlist - Step 02: Click to 'add wishlist' at product detail page 
+[INFO ] [2023-12-09 17:42:47,891] Wishlist: Add to wishlist - Step 03: Verify mesage product is added to wishlist 
+[INFO ] [2023-12-09 17:42:47,991] Wishlist: Add to wishlist - Step 04: Close successful message product is added 
+[INFO ] [2023-12-09 17:42:48,116] Wishlist: Add to wishlist - Step 05: Click to 'add wishlist' link at header
+[INFO ] [2023-12-09 17:42:49,956] Wishlist: Add to wishlist - Step 06: Verify product is displayed 
+[INFO ] [2023-12-09 17:42:50,082] Wishlist: Add to wishlist - Step 07: Click to 'url share add wishlist' link
+[INFO ] [2023-12-09 17:42:50,711] Wishlist: Add to wishlist - Step 08: Verify wishlist title is displayed with name
+[INFO ] [2023-12-09 17:42:50,841] Wishlist: Add to wishlist - Step 09: Verify product in wishlist is displayed with name 
