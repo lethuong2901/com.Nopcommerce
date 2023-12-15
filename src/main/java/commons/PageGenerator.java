@@ -46,4 +46,7 @@ public class PageGenerator {
     public static WishlistPageObject getWishlistPage(WebDriver driver){
         return  new WishlistPageObject(driver);
     }
+    public static ShoppingCartPageObject getShoppingCartPage(WebDriver driver){
+        return new ShoppingCartPageObject(driver);
+    }
 }

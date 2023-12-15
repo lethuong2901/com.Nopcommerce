@@ -1,9 +1,6 @@
 package Nopcommerce.User;
 
-import PageObject.User.HomePageObject;
-import PageObject.User.LoginPageObject;
-import PageObject.User.ProductDetailPageObject;
-import PageObject.User.WishlistPageObject;
+import PageObject.User.*;
 import commons.BaseTest;
 import commons.PageGenerator;
 import commons.Utilities.User_Data_Mapper;
@@ -19,6 +16,7 @@ public class UserWishlist extends BaseTest {
     private LoginPageObject loginPage;
     private ProductDetailPageObject productDetailPage;
     private WishlistPageObject wishlistPage;
+    private ShoppingCartPageObject shoppingCartPage;
     private User_Data_Mapper userDataMapper;
     String email, password, fullname;
 
@@ -70,4 +68,24 @@ public class UserWishlist extends BaseTest {
         log.info("Wishlist: Add to wishlist - Step 09: Verify product in wishlist is displayed with name ");
         Assert.assertTrue(wishlistPage.isWishlistProductDisplayed(driver,"Product(s)",productName));
     }
+//    @Test
+//    public void TC_02_Wishlist_Add_To_Cart(){
+//        log.info("Wishlist:Add to cart - Step : Click to 'home' page");
+//        wishlistPage.clickToHomePage();
+//
+//        log.info("Wishlist:Add to cart - Step : Click to 'wishlist' page");
+//        wishlistPage.clickToHeaderLink(driver,"ico-wishlist");
+//
+//        log.info("Wishlist:Add to cart - Step : Click to 'add to cart' checkbox at product name'"+productName+"'");
+//        wishlistPage.clickToAddToCartCheckbox();
+//
+//        log.info("Wishlist:Add to cart - Step : Click to 'add to cart' button");
+//        shoppingCartPage=wishlistPage.clickToAddToCartButton();
+//
+//        log.info("Wishlist:Add to cart - Step : Verify product is displayed at 'shopping cart' page");
+//        Assert.assertTrue(shoppingCartPage.isProductDisplayed(driver,""));
+//        log.info("Wishlist:Add to cart - Step : Click to 'wishlist' page");
+//        log.info("Wishlist:Add to cart - Step : Verify product '"+productName+"' is undisplayed at 'wishlist' page");
+//
+//    }
 }

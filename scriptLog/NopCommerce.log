@@ -214,3 +214,20 @@
 [INFO ] [2023-12-09 17:42:50,082] Wishlist: Add to wishlist - Step 07: Click to 'url share add wishlist' link
 [INFO ] [2023-12-09 17:42:50,711] Wishlist: Add to wishlist - Step 08: Verify wishlist title is displayed with name
 [INFO ] [2023-12-09 17:42:50,841] Wishlist: Add to wishlist - Step 09: Verify product in wishlist is displayed with name 
+[INFO ] [2023-12-15 14:20:18,650] Register: Successful - Step 01: Refresh 'Register' page
+[INFO ] [2023-12-15 14:20:19,131] Register: Successful - Step 02:Input to 'firstname' textbox with value 'Le Hoai'
+[INFO ] [2023-12-15 14:20:19,415] Register: Successful - Step 03:Input to 'lastname' textbox with value 'Thuong'
+[INFO ] [2023-12-15 14:20:19,587] Register: Successful - Step 04:Input to 'email' textbox with value 'lethuong01@gmail.com'
+[INFO ] [2023-12-15 14:20:19,823] Register: Successful - Step 05:Input to 'password' textbox with value 'P123456!'
+[INFO ] [2023-12-15 14:20:20,016] Register: Successful - Step 06:Input to 'confirm password' textbox with value 'P123456!'
+[INFO ] [2023-12-15 14:20:20,199] Register: Successful - Step 07: Click to 'Register' button
+[INFO ] [2023-12-15 14:20:20,933] Register: Successful - Step 08: Verify register success message is displayed
+[INFO ] [2023-12-15 14:20:27,775] Wishlist: Add to wishlist - Step 01: Click to product name at home page
+[INFO ] [2023-12-15 14:20:28,607] Wishlist: Add to wishlist - Step 02: Click to 'add wishlist' at product detail page 
+[INFO ] [2023-12-15 14:20:31,748] Wishlist: Add to wishlist - Step 03: Verify mesage product is added to wishlist 
+[INFO ] [2023-12-15 14:20:31,837] Wishlist: Add to wishlist - Step 04: Close successful message product is added 
+[INFO ] [2023-12-15 14:20:31,981] Wishlist: Add to wishlist - Step 05: Click to 'add wishlist' link at header
+[INFO ] [2023-12-15 14:20:33,568] Wishlist: Add to wishlist - Step 06: Verify product is displayed 
+[INFO ] [2023-12-15 14:20:33,672] Wishlist: Add to wishlist - Step 07: Click to 'url share add wishlist' link
+[INFO ] [2023-12-15 14:20:34,229] Wishlist: Add to wishlist - Step 08: Verify wishlist title is displayed with name
+[INFO ] [2023-12-15 14:20:34,333] Wishlist: Add to wishlist - Step 09: Verify product in wishlist is displayed with name 
