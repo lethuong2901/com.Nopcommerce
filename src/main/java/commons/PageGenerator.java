@@ -1,5 +1,6 @@
 package commons;
 
+import PageObject.Admin.DashboardPageObject;
 import PageObject.User.*;
 import org.openqa.selenium.WebDriver;
 
@@ -48,5 +49,11 @@ public class PageGenerator {
     }
     public static ShoppingCartPageObject getShoppingCartPage(WebDriver driver){
         return new ShoppingCartPageObject(driver);
+    }
+    public static PageObject.Admin.LoginPageObject getAdminLoginPage(WebDriver driver){
+        return new PageObject.Admin.LoginPageObject(driver);
+    }
+    public static DashboardPageObject getDashboardPage(WebDriver driver){
+        return new DashboardPageObject(driver);
     }
 }

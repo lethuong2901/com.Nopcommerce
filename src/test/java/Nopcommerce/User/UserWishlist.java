@@ -68,7 +68,7 @@ public class UserWishlist extends BaseTest {
         log.info("Wishlist: Add to wishlist - Step 09: Verify product in wishlist is displayed with name ");
         Assert.assertTrue(wishlistPage.isWishlistProductDisplayed(driver,"Product(s)",productName));
     }
-//    @Test
+  //  @Test
 //    public void TC_02_Wishlist_Add_To_Cart(){
 //        log.info("Wishlist:Add to cart - Step : Click to 'home' page");
 //        wishlistPage.clickToHomePage();
