@@ -2,8 +2,7 @@
 
 ## Giới Thiệu
 
-Dự án thực hiện tự động hóa kiểm thử giao diện người dùng (UI) cho trang web NopCommerce. Một số chức năng được kiểm thử bao gồm: Register, Login, Wishlist, Order, Search,... Dự án sử dụng Selenium WebDriver, TestNG.
-Link Website: https://demo.nopcommerce.com/
+Dự án thực hiện tự động hóa kiểm thử giao diện người dùng (UI) cho trang web NopCommerce. Một số chức năng được kiểm thử bao gồm: Register, Login, Wishlist, Order, Search,... Dự án sử dụng Selenium WebDriver, TestNG.<br>Link Website: https://demo.nopcommerce.com/
 
 ## Cấu Trúc Thư Mục
 
