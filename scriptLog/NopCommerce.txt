@@ -1,2 +1,0 @@
-[INFO ] [2024-01-04 15:57:03,501] Seach: Search with product name - Step 01: Click to 'Catalog' 
-[INFO ] [2024-01-04 15:57:04,864] Seach: Search with product name - Step 01: Click to 'Product' 

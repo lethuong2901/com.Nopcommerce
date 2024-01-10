@@ -37,4 +37,11 @@ public class HomePageObject extends BasePage {
         hoverMouse(driver,HomePageUIs.CATEGORY_NAME,category);
         clickToElement(driver,HomePageUIs.SUBCATEGORY_NAME,category,subcategory);
     }
+
+    public ProductDetailPageObject clickToAddToCart(WebDriver driver, String productName) {
+        waitForElementClickable(driver,HomePageUIs.ADD_TO_CART_LINK,productName);
+        clickToElement(driver,HomePageUIs.ADD_TO_CART_LINK,productName);
+        return PageGenerator.getProductDetailPage(driver);
+    }
+
 }
