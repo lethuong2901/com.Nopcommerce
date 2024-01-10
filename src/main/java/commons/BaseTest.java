@@ -123,55 +123,6 @@ public class BaseTest extends BasePage {
         }
     }
 
-//    DateTime vietnam= DateTime.now("");
-//    protected String getCurrentHour(){
-//        DateTime nowUTC= new DateTime();
-//        int hour=nowUTC.getHourOfDay();
-//        return hour;
-//    }
-
-    protected String getCurrentDate() {
-        DateTime nowUTC = new DateTime();
-        int day = nowUTC.getDayOfMonth();
-        if (day < 10) {
-            String dayValue = "0" + day;
-            return dayValue;
-        }
-        return String.valueOf(day);
-    }
-
-    protected String getCurrentMonth() {
-        DateTime nowUTC = new DateTime();
-        int month = nowUTC.getMonthOfYear();
-        if (month < 10) {
-            String monthValue = "0" + month;
-            return monthValue;
-        }
-        return String.valueOf(month);
-    }
-
-    protected String getCurrentYear() {
-        DateTime nowUTC = new DateTime();
-        int year = nowUTC.getYear();
-        return String.valueOf(year);
-    }
-
-    protected String getCurrentHour() {
-        DateTime nowUTC = new DateTime();
-        int hour = nowUTC.getHourOfDay();
-        return String.valueOf(hour);
-    }
-
-    protected String getCurrentMinutes() {
-        DateTime nowUTC = new DateTime();
-        int minute = nowUTC.getMinuteOfHour();
-        if (minute < 10) {
-            String minuteValue = "0" + minute;
-            return minuteValue;
-        }
-
-        return String.valueOf(minute);
-    }
 
     protected String getCurrentDateTime() {
         DateTimeZone dateTimeZone = DateTimeZone.forID("America/Los_Angeles");

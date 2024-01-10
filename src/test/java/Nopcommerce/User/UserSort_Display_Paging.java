@@ -77,17 +77,6 @@ public class UserSort_Display_Paging extends BaseTest {
         log.info("Page: Display 3 per page - Step 02: Verify <= 3 product is displayed in per page");
         Assert.assertTrue(subCategoryPage.isLessOrEqualThreePerPage(driver,"3"));
 
-//        log.info("Page: Display 3 per page- Step: Click to paging");
-//        subCategoryPage.clickToElement();
-//
-//        log.info("Page: Display 3 per page - Step 03: Verify 'next' icon ");
-//        Assert.assertTrue(subCategoryPage.isNexIconDisplayed("3"));
-//
-//        log.info("Page: Display 3 per page - Step 03: Verify 'next' icon is undisplayed at last page");
-//        Assert.assertTrue(subCategoryPage.isNexIconUnDisplayed("3"));
-//
-//        log.info("Page: Display 3 per page - Step 04: Verify 'previous' icon at page 2");
-//        Assert.assertTrue((subCategoryPage.isPreviousIconDisplayed("3")));
 
     }
 
