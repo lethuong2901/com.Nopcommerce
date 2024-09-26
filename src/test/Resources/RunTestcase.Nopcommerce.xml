@@ -10,7 +10,7 @@
 <!--           <class name="Nopcommerce.User.UserLogin"/>-->
 <!--           <class name="Nopcommerce.User.UserSort_Display_Paging"/>-->
 <!--            <class name="Nopcommerce.User.UserWishlist"/>-->
-<!--            <class name="Nopcommerce.Admin.AdminSearchProductName"/>-->
+<!--            <class name="Nopcommerce.Admin.AdminSearchProductName "/>-->
             <class name="Nopcommerce.User.UserOrder"/>
         </classes>
     </test>
